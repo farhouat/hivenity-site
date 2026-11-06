@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Hivenity LLC — data analytics, applied AI, IT project management and software development consultancy based in Franklin, Massachusetts.">
+<meta property="og:title" content="Hivenity — Data, AI &amp; IT consulting">
+<meta property="og:description" content="Turn your data and systems into decisions that stick.">
+<meta property="og:url" content="https://hivenity.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 144 152' fill='%230b5394' stroke='%230b5394' stroke-width='5.6' stroke-linecap='round'%3E%3Cline x1='75' y1='76' x2='97' y2='135'/%3E%3Cline x1='75' y1='76' x2='75' y2='14'/%3E%3Cline x1='75' y1='76' x2='116' y2='65'/%3E%3Cline x1='75' y1='76' x2='15' y2='99'/%3E%3Cline x1='75' y1='76' x2='42' y2='52'/%3E%3Cline x1='75' y1='76' x2='61' y2='111'/%3E%3Cline x1='75' y1='76' x2='134' y2='101'/%3E%3Cg stroke='none'%3E%3Ccircle cx='75' cy='76' r='18'/%3E%3Ccircle cx='97' cy='135' r='11.4'/%3E%3Ccircle cx='75' cy='14' r='11.2'/%3E%3Ccircle cx='116' cy='65' r='10.2'/%3E%3Ccircle cx='15' cy='99' r='7.6'/%3E%3Ccircle cx='42' cy='52' r='5.6'/%3E%3Ccircle cx='61' cy='111' r='5.4'/%3E%3Ccircle cx='134' cy='101' r='4.2'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="canonical" href="https://hivenity.io/">
+<style>:root{color-scheme:light dark}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Hivenity — Data, AI &amp; IT consulting in Massachusetts</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700&family=Cinzel:wght@600&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap">
+<style>
+/* Layout: one calm column, sections as full-width bands; a hex-cell motif (the hive) carries the brand. */
+:root{
+  --bg:#ffffff;           /* white */
+  --surface:#f4f8fc;      /* cool off-white */
+  --ink:#0f2238;          /* navy ink */
+  --muted:#546478;
+  --line:#d6e0ec;
+  --accent:#1d6fe0;       /* clear blue */
+  --accent-ink:#1554b3;   /* deeper blue for links */
+  --band:#0b2a5b;         /* navy band */
+  --band-fg:#eef3fa;
+  --display:"Sora",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0b1628;--surface:#13213a;--ink:#e8eef7;--muted:#9fb0c6;--line:#263a58;
+    --accent:#4d8ff0;--accent-ink:#8cb8ff;--band:#071024;--band-fg:#e8eef7;color-scheme:dark
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0b1628;--surface:#13213a;--ink:#e8eef7;--muted:#9fb0c6;--line:#263a58;
+  --accent:#4d8ff0;--accent-ink:#8cb8ff;--band:#071024;--band-fg:#e8eef7;color-scheme:dark
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0;color:var(--ink)}
+h1{font-size:clamp(2.2rem,5.5vw,3.8rem);font-weight:700;letter-spacing:-.02em}
+h2{font-size:clamp(1.6rem,3.2vw,2.3rem);font-weight:600;letter-spacing:-.01em}
+h3{font-size:1.15rem;font-weight:600}
+p{margin:0}
+a{color:var(--accent-ink)}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.eyebrow{font-family:var(--display);font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:600}
+section{padding-block:clamp(56px,8vw,104px)}
+.stack{display:grid;gap:20px}
+
+/* nav */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.logo{display:flex;align-items:center;gap:12px;font-family:"Cinzel","Times New Roman",serif;font-weight:600;font-size:1.35rem;color:var(--ink);text-decoration:none;letter-spacing:.14em;text-transform:uppercase}
+.logo .mark{width:40px;height:auto;display:block}
+.hive{color:var(--accent-ink)}
+nav ul{display:flex;gap:26px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{text-decoration:none;color:var(--muted);font-size:.95rem;font-weight:500}
+nav ul a:hover,nav ul a:focus-visible{color:var(--ink)}
+@media (max-width:640px){nav ul{display:none}}
+
+/* hero */
+.hero{padding-block:clamp(64px,10vw,128px);position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;align-items:center}
+.hero p.lead{font-size:1.2rem;color:var(--muted);max-width:34em}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}
+.btn{display:inline-block;padding:13px 22px;border-radius:6px;font-family:var(--display);font-weight:600;font-size:.95rem;text-decoration:none;border:1.5px solid transparent;cursor:pointer}
+.btn-primary{background:var(--accent);color:#ffffff;border-color:var(--accent)}
+.btn-primary:hover{filter:brightness(1.06)}
+.btn-ghost{color:var(--ink);border-color:var(--line);background:transparent}
+.btn-ghost:hover{border-color:var(--ink)}
+.hive{width:100%;max-width:340px;justify-self:center;display:block}
+@media (max-width:760px){.hero .wrap{grid-template-columns:1fr}.hive{max-width:240px;order:-1}}
+
+/* services */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:26px 24px;display:grid;gap:10px;align-content:start;min-width:0}
+.card .mark{width:30px;height:30px;color:var(--accent)}
+.card p{color:var(--muted);font-size:.98rem}
+.card ul{margin:4px 0 0;padding-left:18px;color:var(--muted);font-size:.93rem;display:grid;gap:4px}
+
+/* approach band */
+.band{background:var(--band);color:var(--band-fg)}
+.band h2,.band h3{color:var(--band-fg)}
+.band .eyebrow{color:var(--accent)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;margin-top:36px}
+.step{display:grid;gap:8px;border-top:1px solid color-mix(in srgb,var(--band-fg) 25%,transparent);padding-top:18px;min-width:0}
+.step .n{font-family:var(--display);color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums}
+.step p{color:color-mix(in srgb,var(--band-fg) 72%,transparent);font-size:.97rem}
+
+/* founders */
+.people{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;margin-top:28px}
+.person{display:grid;gap:8px;padding:26px 24px;background:var(--surface);border:1px solid var(--line);border-radius:8px;min-width:0}
+.person .role{color:var(--accent);font-family:var(--display);font-size:.85rem;font-weight:600}
+.person p{color:var(--muted);font-size:.97rem}
+
+/* contact */
+.contact .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:48px;align-items:start}
+@media (max-width:760px){.contact .wrap{grid-template-columns:1fr}}
+.contact p{color:var(--muted)}
+.direct{display:grid;gap:8px;margin-top:20px;font-size:.98rem}
+.direct span{display:block;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.1em}
+.copyrow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.copyrow code{font-family:var(--body);font-size:1rem;color:var(--ink);user-select:all}
+.copyrow button{font:inherit;font-size:.8rem;padding:4px 10px;border:1px solid var(--line);border-radius:4px;background:var(--surface);color:var(--ink);cursor:pointer}
+form{display:grid;gap:14px;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:26px 24px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:520px){.row{grid-template-columns:1fr}}
+label{display:grid;gap:6px;font-size:.88rem;font-weight:500}
+input,select,textarea{font:inherit;font-size:1rem;padding:11px 12px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--ink);width:100%;min-width:0}
+textarea{min-height:120px;resize:vertical}
+input:focus-visible,select:focus-visible,textarea:focus-visible,.btn:focus-visible,button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.note{font-size:.9rem;color:var(--accent-ink)}
+
+footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:.9rem}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+</style>
+
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="logo" href="#top" aria-label="Hivenity home">
+      <svg class="mark" viewBox="0 0 144 152" aria-hidden="true" fill="#0b5394" stroke="#0b5394" stroke-width="5.6" stroke-linecap="round"><line x1="75" y1="76" x2="97" y2="135"/><line x1="75" y1="76" x2="75" y2="14"/><line x1="75" y1="76" x2="116" y2="65"/><line x1="75" y1="76" x2="15" y2="99"/><line x1="75" y1="76" x2="42" y2="52"/><line x1="75" y1="76" x2="61" y2="111"/><line x1="75" y1="76" x2="134" y2="101"/><circle stroke="none" cx="75" cy="76" r="18"/><circle stroke="none" cx="97" cy="135" r="11.4"/><circle stroke="none" cx="75" cy="14" r="11.2"/><circle stroke="none" cx="116" cy="65" r="10.2"/><circle stroke="none" cx="15" cy="99" r="7.6"/><circle stroke="none" cx="42" cy="52" r="5.6"/><circle stroke="none" cx="61" cy="111" r="5.4"/><circle stroke="none" cx="134" cy="101" r="4.2"/></svg>
+      Hivenity
+    </a>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#approach">How we work</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <div class="stack">
+      <span class="eyebrow">Data · AI · IT delivery</span>
+      <h1>Turn your data and systems into decisions that stick.</h1>
+      <p class="lead">Hivenity is a Massachusetts consultancy helping mid-size companies and life-science teams with analytics, applied AI, and the project management to actually ship it.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#contact">Book a discovery call</a>
+        <a class="btn btn-ghost" href="#services">See what we do</a>
+      </div>
+    </div>
+    <svg class="hive" viewBox="0 0 144 152" aria-hidden="true" fill="#0b5394" stroke="#0b5394" stroke-width="5.6" stroke-linecap="round"><line x1="75" y1="76" x2="97" y2="135"/><line x1="75" y1="76" x2="75" y2="14"/><line x1="75" y1="76" x2="116" y2="65"/><line x1="75" y1="76" x2="15" y2="99"/><line x1="75" y1="76" x2="42" y2="52"/><line x1="75" y1="76" x2="61" y2="111"/><line x1="75" y1="76" x2="134" y2="101"/><circle stroke="none" cx="75" cy="76" r="18"/><circle stroke="none" cx="97" cy="135" r="11.4"/><circle stroke="none" cx="75" cy="14" r="11.2"/><circle stroke="none" cx="116" cy="65" r="10.2"/><circle stroke="none" cx="15" cy="99" r="7.6"/><circle stroke="none" cx="42" cy="52" r="5.6"/><circle stroke="none" cx="61" cy="111" r="5.4"/><circle stroke="none" cx="134" cy="101" r="4.2"/></svg>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap stack">
+    <span class="eyebrow">Services</span>
+    <h2>Four things we do well</h2>
+    <div class="grid" style="margin-top:14px">
+      <article class="card">
+        <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+        <h3>Data analytics &amp; BI</h3>
+        <p>Dashboards and reporting your team trusts, built on clean, governed data.</p>
+        <ul><li>Power BI / Tableau dashboards</li><li>Data modeling and warehousing</li><li>Healthcare and operations KPIs</li></ul>
+      </article>
+      <article class="card">
+        <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l3 3M16 16l3 3M5 19l3-3M16 8l3-3"/></svg>
+        <h3>Applied AI &amp; automation</h3>
+        <p>Practical AI where it pays off: document processing, assistants, forecasting, workflow automation.</p>
+        <ul><li>LLM assistants on your own data</li><li>Process automation</li><li>Pilot to production, with controls</li></ul>
+      </article>
+      <article class="card">
+        <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 13h4M8 16h8"/></svg>
+        <h3>IT project management</h3>
+        <p>Infrastructure, cloud and application projects delivered on scope, with vendors kept honest.</p>
+        <ul><li>Infrastructure &amp; data-center builds</li><li>GxP / regulated environments</li><li>Vendor and stakeholder management</li></ul>
+      </article>
+      <article class="card">
+        <svg class="mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 6l-5 6 5 6M16 6l5 6-5 6M14 4l-4 16"/></svg>
+        <h3>Software development</h3>
+        <p>Web applications and APIs that connect your systems and replace spreadsheets that grew too far.</p>
+        <ul><li>Node.js / Express services</li><li>Integrations and internal tools</li><li>Maintenance and support</li></ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="approach" class="band">
+  <div class="wrap">
+    <span class="eyebrow">How we work</span>
+    <h2 style="margin-top:12px">Small team, senior people, no hand-offs</h2>
+    <div class="steps">
+      <div class="step"><span class="n">1</span><h3>Discover</h3><p>A short, free call. We map the problem, the data you have, and what "done" looks like.</p></div>
+      <div class="step"><span class="n">2</span><h3>Scope</h3><p>A fixed-scope proposal with deliverables, timeline and price. No open-ended retainers unless you want one.</p></div>
+      <div class="step"><span class="n">3</span><h3>Deliver</h3><p>Weekly check-ins, working increments, and documentation your own team can run with.</p></div>
+      <div class="step"><span class="n">4</span><h3>Hand over</h3><p>Training, runbooks and a clean exit. Stay on for support if it helps.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap stack">
+    <span class="eyebrow">About</span>
+    <h2>Founded in 2018, now based in Franklin, Massachusetts</h2>
+    <p style="color:var(--muted);max-width:40em">Hivenity was founded in 2018 by practitioners who spent their careers inside enterprise IT and healthcare analytics. In 2026 the company moved to Massachusetts and now operates as Hivenity LLC, working with clients across New England and remotely.</p>
+    <div class="people">
+      <article class="person">
+        <h3>IT delivery &amp; software</h3>
+        <span class="role">Practice</span>
+        <p>Infrastructure and data-center programs for life-science manufacturing, including GxP-regulated sites. Web applications, integrations and the project management to land them.</p>
+      </article>
+      <article class="person">
+        <h3>Data &amp; analytics</h3>
+        <span class="role">Practice</span>
+        <p>Healthcare and operational analytics: turning clinical and business data into reporting teams actually use, and applying AI where it pays off.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <div class="stack">
+      <span class="eyebrow">Contact</span>
+      <h2>Tell us what you're trying to fix</h2>
+      <p>We reply within one business day. First call is free and usually 30 minutes.</p>
+      <div class="direct">
+        <div><span>Email</span><div class="copyrow"><code id="email">contact@hivenity.io</code><button type="button" id="copyEmail">Copy</button></div></div>
+        <div><span>Location</span><div>Franklin, MA · serving New England and remote</div></div>
+      </div>
+    </div>
+    <form id="contactForm" novalidate>
+      <input type="hidden" name="access_key" value="7c733206-ac8a-4fed-9a68-6077b9d90057">
+      <input type="hidden" name="subject" value="New enquiry from hivenity.io">
+      <input type="hidden" name="from_name" value="Hivenity website">
+      <input type="checkbox" name="botcheck" id="f-botcheck" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="row">
+        <label>Name<input id="f-name" name="name" required autocomplete="name"></label>
+        <label>Company<input id="f-company" name="company" autocomplete="organization"></label>
+      </div>
+      <label>Work email<input id="f-email" name="email" type="email" required autocomplete="email"></label>
+      <label>What do you need help with?
+        <select id="f-topic" name="topic">
+          <option>Data analytics &amp; BI</option>
+          <option>Applied AI &amp; automation</option>
+          <option>IT project management</option>
+          <option>Software development</option>
+          <option>Not sure yet</option>
+        </select>
+      </label>
+      <label>Message<textarea id="f-msg" name="message" placeholder="A few lines on the situation, timeline and budget range if you have one."></textarea></label>
+      <button class="btn btn-primary" type="submit" id="f-submit">Send message</button>
+      <p class="note" id="formNote" hidden></p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>© 2018–2026 Hivenity LLC · Franklin, Massachusetts</div>
+    <div>contact@hivenity.io</div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn=document.getElementById('copyEmail'),code=document.getElementById('email');
+  btn.addEventListener('click',function(){
+    var t=code.textContent;
+    function fallback(){var r=document.createRange();r.selectNodeContents(code);var s=getSelection();s.removeAllRanges();s.addRange(r);btn.textContent='Selected';}
+    if(navigator.clipboard&&navigator.clipboard.writeText){
+      navigator.clipboard.writeText(t).then(function(){btn.textContent='Copied';},fallback);
+    }else fallback();
+    setTimeout(function(){btn.textContent='Copy';},1800);
+  });
+  var form=document.getElementById('contactForm'),note=document.getElementById('formNote');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var name=document.getElementById('f-name').value.trim(),email=document.getElementById('f-email').value.trim();
+    if(!name||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){
+      note.textContent='Add your name and a valid email so we can reply.';note.hidden=false;return;
+    }
+    var btn=document.getElementById('f-submit');
+    btn.disabled=true;btn.textContent='Sending\u2026';note.hidden=true;
+    var fd=new FormData(form);
+    fetch('https://api.web3forms.com/submit',{method:'POST',body:fd,headers:{'Accept':'application/json'}})
+      .then(function(r){return r.json();})
+      .then(function(j){
+        if(j.success){form.reset();note.textContent='Message sent. We will reply within one business day.';}
+        else{note.textContent='Something went wrong. Email us directly at contact@hivenity.io.';}
+      })
+      .catch(function(){note.textContent='Could not send. Email us directly at contact@hivenity.io.';})
+      .then(function(){note.hidden=false;btn.disabled=false;btn.textContent='Send message';});
+  });
+})();
+</script>
+
+</body>
+</html>
